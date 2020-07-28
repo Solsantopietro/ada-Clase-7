@@ -1,21 +1,29 @@
 .contenedor {
-    background-color: pink;
-    height: 900px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    display: inline-block;
+    width: 850px;
     align-content: center;
+    margin-top: 60px ;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
 }
-
 .tarjeta{
-    background-color: aquamarine; 
-    height: 100px;
-    width: 100px;
-    border: 2px solid black;
-    border-radius: 8px;
-    flex-wrap: wrap;
-    margin: 20px;
+    background-color: #fafafa;
+    border: 1px #dddfe5 solid;
+    border-radius: 10px;
+    width: 260px;
+    height: 229px;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 30px;
+    display: inline-block;
+    color: #2e2e31;
 }
 
-  
+img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    object-position: center;
+}
