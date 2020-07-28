@@ -1,20 +1,21 @@
-.block{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    display: inline-block;
+.contenedor {
+    background-color: pink;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
-.inline{
-    width: 100px;
+.tarjeta{
+    background-color: aquamarine; 
     height: 100px;
-    background-color: blue;
-    display: inline-block;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
-.none{
-    width: 100px;
-    height: 100px;
-    background-color: green;
-    display: none;
-}
+  
