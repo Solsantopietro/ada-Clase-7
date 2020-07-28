@@ -1,0 +1,20 @@
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+}
+
+.inline{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.none{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: none;
+}
